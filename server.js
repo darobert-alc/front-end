@@ -23,6 +23,7 @@ global.acmws['request-latency-catalogue'] = 500;
 global.acmws['response-error-probability'] = 20;
 
 
+
 app.use(helpers.rewriteSlash);
 app.use(metrics);
 app.use(express.static("public"));
